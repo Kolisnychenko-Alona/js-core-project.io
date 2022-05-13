@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="main.css">
+    <title>Puzzle</title>
+</head>
+<body>
+    
+    <div class="timer"> 01:00</div>
+    <form name="puzzle-butons">
+        <input type="button" value="Start game!" id="start" >
+        <input type="button" value="Check result" id="check">
+        <input type="button" value="New game"  id="new">
+    </form>
+    <div class="container">
+        <div class="game-box" id="start-box">
+            <div class="greed"><div class="box"></div></div>
+            <div class="greed"><div class="box"></div></div>
+            <div class="greed"><div class="box"></div></div>
+            <div class="greed"><div class="box"></div></div>
+            <div class="greed"><div class="box"></div></div>
+            <div class="greed"><div class="box"></div></div>
+            <div class="greed"><div class="box"></div></div>
+            <div class="greed"><div class="box"></div></div>
+            <div class="greed"><div class="box"></div></div>
+            <div class="greed"><div class="box"></div></div>
+            <div class="greed"><div class="box"></div></div>
+            <div class="greed"><div class="box"></div></div>
+            <div class="greed"><div class="box"></div></div>
+            <div class="greed"><div class="box"></div></div>
+            <div class="greed"><div class="box"></div></div>
+            <div class="greed"><div class="box"></div></div>
+        </div>
+        <div class="game-box" id="end">
+            <div class="greed box-end"></div>
+            <div class="greed box-end"></div>
+            <div class="greed box-end"></div>
+            <div class="greed box-end"></div>
+            <div class="greed box-end"></div>
+            <div class="greed box-end"></div>
+            <div class="greed box-end"></div>
+            <div class="greed box-end"></div>
+            <div class="greed box-end"></div>
+            <div class="greed box-end"></div>
+            <div class="greed box-end"></div>
+            <div class="greed box-end"></div>
+            <div class="greed box-end"></div>
+            <div class="greed box-end"></div>
+            <div class="greed box-end"></div>
+            <div class="greed box-end"></div>
+        </div>
+    </div>
+    <div class="modal">
+        <div class="modal-message">
+            <p class="loose">It's a pity, but you lost 	&#128542;</p>
+            <p class="check-time">You still have time, you sure?</p>
+            <p class="win">&#127881; Woohoo, well done, you did it! &#127942; </p>
+            <div class="btns">
+                <input type="button" class="close" value="Close" id="close">
+                <input type="button" class="check" value="Check">
+            </div>
+            
+        </div>
+    </div>
+
+
+
+    <script src="jquery-3.6.0.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jqueryui/1.12.1/jquery-ui.min.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
